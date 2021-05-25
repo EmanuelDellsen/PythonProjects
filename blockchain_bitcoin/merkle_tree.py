@@ -19,6 +19,7 @@ block2257Hashes = [
 
 
 def hashCalc(hash1, hash2):
+    print(type(hash1), type(hash2))
     turnedHash1 = binascii.unhexlify(hash1)[::-1]
     print(turnedHash1, "turned hash 1")
     turnedHash2 = binascii.unhexlify(hash2)[::-1]
